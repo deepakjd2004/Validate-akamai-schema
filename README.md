@@ -8,6 +8,8 @@ Example code for validating akamai ruleset against product specific api schema
 - Using a text editor, edit line 16 and provide the full system path to your .edgerc file.
 Example: edgeRcLoc = '/Users/bob/.edgerc'
 
+- Change product = 'prd_SPM' & ruleFormat = 'latest' as needed in the script. You can find common product id from this link  https://registry.terraform.io/providers/akamai/akamai/latest/docs/guides/appendix 
+
 # This script takes one argument:
 
 validate-akamai-schema.py <akamai_ruleset_json_file>
