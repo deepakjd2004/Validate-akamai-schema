@@ -9,6 +9,7 @@ Example code for validating akamai ruleset against product specific api schema
 Example: edgeRcLoc = '/Users/bob/.edgerc'
 
 # This script takes one argument:
-validate-akamai-schema.py <akamai ruleset json file>
+
+validate-akamai-schema.py <akamai_ruleset_json_file>
 
 This script will produce a non-zero exit code if the JSON does not conform to the product schema. It will also log output to the shell indicating what specific JSON elements are incorrect, including their placement in the rule hierarchy
